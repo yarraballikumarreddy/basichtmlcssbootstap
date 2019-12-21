@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Elements</title>
+	<style type="text/css">
+         p:first-line { text-decoration: underline; }
+         p.secondp:first-letter { font-size: 40px; }     
+         .percentage:after { content: '%'; font-size: 40px;}
+         .percentage:before {  content: '$'; font-size: 40px; }
+      </style>
+
+</head>
+<body>
+
+<h1>CSS pseudo-elements are used to add special effects to some selectors.</h1>
+<h2>The most commonly used pseudo-elements are as follows −</h2>
+<ul>
+	<li>:first-line</li>
+	<li>:first-letter</li>
+	<li>:before</li>
+	<li>:after</li>
+</ul>
+
+
+<p>First line of the text in a selector. Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem </p>
+<p class="secondp">Second line of the text in a selector.</p>
+
+<div><span class="percentage">8500</span></div>
+
+
+
+
+
+</body>
+</html>

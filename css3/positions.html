@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.static {
+		position: static;
+		border: 5px solid #ff0000;
+		
+		}
+
+		.relative {
+		position: relative;
+		left: 20px;
+		border: 2px solid #ff0000;
+		top: 20px;
+		}
+
+		.fixed {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		width: 300px;
+		border: 2px solid #ff0000;
+		}
+
+
+		.relative-parent {
+		position: relative;
+		width: 400px;
+		top: 200px;
+		height: 200px;
+		border: 2px solid #ff0000;
+		} 
+		.absolute {
+		position: absolute;
+		top: 40px;
+		right: 0;
+		width: 200px;
+		height: 100px;
+		border: 2px solid #ff0000;
+		}
+
+
+		.sticky {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 10px;
+		padding: 10px;
+		background-color: #cae8ca;
+		border: 2px solid #4CAF50;
+		}
+
+
+	</style>
+
+</head>
+<body>
+	<p>There are five different position values:</p>
+	<ul>
+		<li>static</li>
+		<li>relative</li>
+		<li>fixed</li>
+		<li>absolute</li>
+		<li>sticky</li>
+	</ul>
+
+<div class="static">
+  This div element has position: static;
+</div>
+
+<div class="relative">
+This div element has position: relative;
+</div>
+
+<div class="fixed">
+This div element has position: fixed;
+</div>
+
+<div class="relative-parent" style="margin-bottom: 500px;">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+
+
+<div class="sticky">I am sticky!</div>
+
+<div style="padding-bottom:2000px">
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+
+
+
+
+</body>
+</html>

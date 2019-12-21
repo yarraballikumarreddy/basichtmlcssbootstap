@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+body {
+    counter-reset: section;
+}
+	h2:before {
+    counter-increment: section;
+   /*counter-reset: section;*/
+    content: "Section " counter(section) ": ";
+}
+
+</style>
+
+</head>
+<body>
+	<h2>Chenna</h2>
+	<h2>Chethan</h2>
+	<h2>Prasadh</h2>
+	<h2>Nagesh</h2>
+	<h2>Hari</h2>
+	<h2>Sathis</h2>
+	<h2>Appaji</h2>
+</body>
+</html>

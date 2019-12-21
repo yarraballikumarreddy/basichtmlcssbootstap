@@ -1,0 +1,69 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>   
+.myfirst {  
+    width: 200px;  
+    height: 200px;  
+    background: red;  
+    position: relative;  
+    -webkit-animation: myfirst 10s; /* Chrome, Safari, Opera */  
+    animation: myfirst 10s;  
+}  
+/* Chrome, Safari, Opera */  
+@-webkit-keyframes myfirst {  
+    0%   {background:blue; left:0px; top:0px;}  
+    25%  {background:green; left:300px; top:0px;}  
+    50%  {background:red; left:300px; top:300px;}  
+    75%  {background:yellow; left:0px; top:200px;}  
+    100% {background:blue; left:0px; top:0px;}  
+}  
+/* Standard syntax */  
+@keyframes myfirst {  
+    0%   {background:blue; left:0px; top:0px;}  
+    25%  {background:green; left:300px; top:0px;}  
+    50%  {background:red; left:300px; top:200px;}  
+    75%  {background:yellow; left:0px; top:200px;}  
+    100% {background:blue; left:0px; top:0px;}  
+} 
+
+.myanimation {  
+    width: 100px;  
+    height: 100px;  
+    background: red;  
+    -webkit-animation: myanimation 6s; 
+    animation: myanimation 5s;  
+} 
+ 
+@-webkit-keyframes myanimation {  
+    from {  background: linear-gradient(red, green); /* Standard syntax (must be last) */  }  
+    to {background: linear-gradient(to right, red , green);}  
+}  
+
+ @keyframes myanimation  {  
+    from {background: red;}  
+    to {background: black;}  
+} 
+
+</style>  
+</head>  
+<body>  
+<ul>
+	<li>@keyframes : specify the animation</li>
+	<li>animation : shorthand property</li>
+	<li>animation-delay : when the animation will start</li>
+	<li>animation-direction : alternate cycle</li>
+	<li>animation-duration : time taken by the animation</li>
+	<li>animation-fill-mode : when the animation is not playing</li>
+	<li>animation-iteration-count : number of times the animation</li>
+	<li>animation-play-state : running or paused</li>
+	<li>animation-name : name of @keyframes animation</li>
+	<li>animation-timing-function : speed curve of the animation</li>
+</ul>
+<div class="myfirst"></div>
+
+<br>
+
+<!-- <div class="myanimation"></div>
+</body>  
+</html>  

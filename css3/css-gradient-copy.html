@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>  
+#grad1 {  
+    height: 100px;
+    background: linear-gradient(red, green); /* Standard syntax (must be last) */  
+    background: -webkit-linear-gradient(red, green); /* For Safari 5.1 to 6.0 */  
+    background: -o-linear-gradient(red, green); /* For Opera 11.1 to 12.0 */  
+    background: -moz-linear-gradient(red, green); /* For Firefox 3.6 to 15 */
+}
+
+#grad2 {  
+    height: 100px;  
+    background: -webkit-linear-gradient(left, red, green); /* For Safari 5.1 to 6.0 */  
+    background: -o-linear-gradient(right, red, green); /* For Opera 11.1 to 12.0 */  
+    background: -moz-linear-gradient(right, red, green); /* For Firefox 3.6 to 15 */  
+    background: linear-gradient(to right, red , green); /* Standard syntax (must be last) */  
+}  
+
+#radgad1 {  
+    height: 150px;  
+    width: 200px;  
+    background: -webkit-radial-gradient(blue 5%, green 15%, red 60%); /* Safari 5.1 to 6.0 */  
+    background: -o-radial-gradient(blue 5%, green 15%, red 60%); /* For Opera 11.6 to 12.0 */  
+    background: -moz-radial-gradient(blue 5%, green 15%, red 60%); /* For Firefox 3.6 to 15 */  
+    background: radial-gradient(blue 5%, green 15%, red 60%); /* Standard syntax (must be last) */  
+}
+</style> 
+
+</head>
+<body>
+<h2>CSS3 defines two types of gradients:</h2>
+<ul>
+	<li>Linear Gradients (goes down/up/left/right/diagonally)</li>
+<li>Radial Gradients (defined by their center)</li>
+</ul>
+
+<div id="grad1"></div> 
+<br>
+<div id="grad2"></div> 
+<br>
+<div id="radgad1"></div>
+
+</body>
+</html>

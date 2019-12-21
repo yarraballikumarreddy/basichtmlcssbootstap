@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+ div > p:first-child
+         {
+            text-indent: 50px;
+            background-color: #ff0000; /*red*/
+         }
+ div > p:last-child
+         {
+            
+            padding-left: 100px;
+            background-color: #727272; /*grey*/
+         }         
+
+
+</style>	
+</head>
+<body>
+<h1>Pseudo-Classes</h1>
+:active<br>
+:any<br>
+:any-link<br>
+:checked<br>
+:default<br>
+:dir()<br>
+:disabled<br>
+:empty<br>
+:enabled<br>
+:first<br>
+:first-child<br>
+:first-of-type<br>
+:fullscreen<br>
+:focus<br>
+:focus-within<br>
+:hover<br>
+:indeterminate<br>
+:in-range<br>
+:invalid<br>
+:lang<br>
+:last-child<br>
+:last-of-type<br>
+:left<br>
+:link<br>
+:not()<br>
+:nth-child<br>
+:nth-last-child<br>
+:nth-last-of-type<br>
+:nth-of-type<br>
+:only-child<br>
+:only-of-type<br>
+:optional<br>
+:out-of-range<br>
+:placeholder-shown<br>
+:read-only<br>
+:read-write<br>
+:required<br>
+:right<br>
+:root<br>
+:scope<br>
+:target<br>
+:valid<br>
+:visited <br>
+
+<h2>Regular Usage</h2>
+a:link<br>
+a:visited<br>
+a:hover<br>
+a:active<br>
+
+<p><b><a href="visited.html/" target="_blank">This is my website and blog</a></b></p>
+
+<p><b><a href="http://www.chennarayalu.com/" target="_blank">This is my website and blog</a></b></p>
+
+<img src="img/relationalpseudos2.png" />
+
+<div>
+	<p>:first-child pseudo-class matches a specified element that is the first child of another element and adds special style to that element that is the first child of some other element</p>
+	<p>:first-child pseudo-class matches a specified element that is the first child of another element and adds special style to that element that is the first child of some other element</p>
+	<p>:first-child pseudo-class matches a specified element that is the first child of another element and adds special style to that element that is the first child of some other element</p>
+</div>
+
+<br><br>
+
+<p>:first-of-type - Selects the first element of this type within any parent. So if you have two divs, each had within it a paragraph, image, paragraph, image. Then div img:first-of-type would select the first image inside the first div and the first image inside the second div.</p>
+
+<p>:last-of-type - Same as above, only would select the last image inside the first div and the last image inside the second div.</p>
+
+<p>:nth-last-of-type() - Works like :nth-of-type, but it counts up from the bottom instead of the top.</p>
+
+<p>:nth-last-child() - Works like :nth-child, but it counts up from the bottom instead of the top.</p>
+
+<p>:only-of-type - Selects only if the element is the only one of its kind within the current parent.</p>
+
+
+</body>
+</html>
+
+
+1300145725

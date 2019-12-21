@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>  
+#grad1 {  
+    height: 100px;
+    background: linear-gradient(red 20%, green 80%); /* Standard syntax (must be last) */ 
+}
+
+#grad2 {  
+    height: 100px; 
+    background: linear-gradient(to right, red, green); /* Standard syntax (must be last) */  
+}  
+
+#radgad1 {  
+    height: 150px;  
+    width: 200px;
+    background: radial-gradient(blue 5%, green 15%, red 60%); /* Standard syntax (must be last) */  
+}
+</style> 
+
+</head>
+<body>
+<h2>CSS3 defines two types of gradients:</h2>
+<ul>
+	<li>Linear Gradients (goes down/up/left/right/diagonally)</li>
+    <li>Radial Gradients (defined by their center)</li>
+</ul>
+
+<div id="grad1"></div> 
+<br>
+<div id="grad2"></div> 
+<br>
+<div id="radgad1"></div>
+
+</body>
+</html>

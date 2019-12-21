@@ -1,0 +1,65 @@
+html, body{
+  min-height: 100%;
+}
+body{
+  position: relative;
+}
+.red{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  left: 20px;
+  background: red;	
+  z-index: 1;
+}
+.green {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  top: -300px;
+  left: 300px;
+  background: green;
+}
+.blue {	
+  position: relative;
+  width: 400px;
+  height: 600px;
+  top: -730px;
+  left: 100px;
+  background: blue;
+}
+
+
+.clear {clear:both;}
+
+.girlImg{ 
+		width:320px; 
+		height:240px; 
+		background: url(img/11.jpg) no-repeat; 
+		border:5px solid #000000; } 
+.girlImg .overlay { 
+		position:relative; 
+		top:0px; 
+		width:320px; 
+		height:240px; 
+		background:#FF2400; 
+		opacity:0; }
+     
+.girlImg:hover .overlay { opacity:0.7; }
+
+
+
+.girlImg1{ width:320px; 
+		height:240px; 
+		background: url(img/11.jpg) no-repeat; 
+		border:5px solid #000000; } 
+.girlImg1 .overlay1{ position:relative; 
+		top:50px; 
+		width:220px; 
+		height:140px;
+    left: :100px; 
+		background:#FF2400; 
+		opacity: 0.7;
+    margin:0 auto; 
+		}

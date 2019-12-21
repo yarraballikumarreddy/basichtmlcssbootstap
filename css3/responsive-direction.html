@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+<style>
+
+/* equal to or less than 768px wide */
+@media (max-width: 768px) {
+  .float-right-sm {
+    float: right;
+    display: block;
+    background-color: red;    
+    border: 1px solid red;
+  }
+}
+
+/* equal to or greater than 769px wide */
+@media (min-width: 769px) {
+  .float-right-lg {
+    float: right;
+    display: block;
+    background-color: green;
+    border: 1px solid green;
+  }
+}
+
+</style>
+</head>
+
+<body>
+	
+<div>
+ <span class="float-right-sm">Float Right when screen size is equal to 768px or lesser than 768px (Float right =&gt;768px= max-width:768px)</span>
+ <span class="float-right-lg">Float Right when screen size is equal to 769px or greater than 769px (Float right =&gt;769px = min-width:769px)</span>
+</div>
+
+
+</body>
+</html>
